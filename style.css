@@ -1,0 +1,30 @@
+
+body, html {
+    height: 100%; /* Asegura que el body y el html ocupen toda la altura */
+    margin: 0; /* Elimina los márgenes por defecto */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+  }
+  
+  .contenedor{
+    text-align: center;
+    background-color:antiquewhite; /*Color de fondo del contenedor principal*/
+  }
+  
+  .cont{
+    display: block;
+  }
+  
+  .texto{
+   margin-top: 10px;
+   margin: 0;
+  font-size:xx-large; /*Tamaño de la letra*/
+  font-family:'Courier New', Courier, monospace, sans-serif; /*Tipografias diversas para el mensaje*/
+  }
+  
+  a{
+    text-decoration:none; /*Elimina la linea que se encuetra bajo el texto que contiene el link a la página principal*/
+  }
+
+  
