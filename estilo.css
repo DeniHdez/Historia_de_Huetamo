@@ -1,0 +1,120 @@
+body,
+html {
+  height: 100%;
+  margin: auto;
+}
+
+.navbar {
+  height: 10%;
+  background-color: #f8f9fa;
+}
+
+#colorText {
+  color: red;
+}
+
+.contenedor {
+  width: 80%;
+  /*Porcentaje del ancho del contenedor principal del cuerpo*/
+  max-width: auto;
+  height: 100vh;
+  margin: auto;
+  /*Centra el cuerpo en la página*/
+  background-color: antiquewhite;
+  /*Color de fondo del contenedor principal*/
+}
+
+#estilo {
+  /* background-color:#f8f9fa; */
+  background-color: rgb(237, 237, 238, 0.9);
+  /* Fondo del div superpuesto */
+  width: 95%;
+  height: auto;
+  border-radius: 30px;
+  position: relative;
+  top: -80px;
+}
+
+#estilo2 {
+   /* background-color:#f8f9fa; */
+   background-color: rgb(237, 237, 238, 0.9);
+   /* Fondo del div superpuesto */
+   width: 95%;
+   height: auto;
+   border-radius: 30px;
+   position: relative;
+   top: -80px;
+}
+
+#estilo3 {
+  background-color: rgb(237, 237, 238, 0.9);
+  width: 100%;
+  box-sizing: border-box;
+  text-align: justify; /* Alinea el texto justificado */
+  padding: 20px; /* Ajusta el espacio alrededor del contenido */
+}
+
+.imagen-contenedor {
+  text-align: center;
+  /* margin-top: 20px; */
+}
+
+.img_ab{
+  max-width: 100%;
+  height: auto;
+  display: inline-block; /* Permite que las imágenes se alineen junto al texto */
+  vertical-align: middle; /* Alinea verticalmente con el texto */
+  margin-bottom: 10px; /* Agrega un espacio entre el texto y la imagen */
+}
+
+
+#estilo h1,
+#estilo2 h1,
+#estilo3 h1 {
+  position: relative;
+  text-align: center;
+  top: 15px;
+  color: red;
+}
+
+#estilo3 h2,
+#estilo3 h3{
+  color:red;
+  margin-top: 3%;
+}
+
+#estilo2 h2,
+#estilo3 h5{
+  color:red;
+}
+
+footer {
+  background-color:rgba(255, 117, 117, 0.9); /* Color de fondo del footer */
+  color: white; /*Color del texto del footer*/
+  /* padding:50px; */
+  height: 6%;
+  width: auto;
+  text-align: center;
+  border-radius: 30px; /* Esquinas redondeadas (superior izquierda y superior derecha) */
+}
+
+/* Estilo para el contenido del footer */
+.footer-content {
+  max-width: 1200px; /* Ancho máximo del contenido del footer */
+  margin: 2%; /* Centrar el contenido del footer */
+}
+
+.justificado{
+ text-align: justify;
+ padding-left: 30px;
+ padding-top: 30px;
+ padding-right: 30px;
+ color: black;
+}
+
+.justificado2{
+  text-align: justify;
+  padding-left: 30px;
+  /* padding-top: 30px; */
+  padding-right: 30px;
+ }
